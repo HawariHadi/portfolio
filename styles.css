@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+#about {
+    padding: 20px;
+    text-align: center;
+}
+
+#about img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+#skills {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+#skills ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+#skills li {
+    display: inline;
+    margin: 0 10px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 20px;
+}
+
+#projects {
+    padding: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+#resume {
+    text-align: center;
+    padding: 20px;
+}
+
+#resume a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+#contact {
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+#certifications {
+    background-color: #f0f0f0;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#certifications h2 {
+    font-size: 1.5rem; /* Adjust the certification section heading font size */
+    color: #333;
+    margin-bottom: 15px; /* Add some space below the heading */
+}
+
+#certifications p {
+    font-size: 1rem; /* Adjust the font size of certification descriptions */
+    margin-bottom: 10px; /* Add space between certifications */
+}
+
+#certifications p:last-child {
+    margin-bottom: 0; /* Remove space after the last certification */
+}
+
+#certifications a {
+    text-decoration: none;
+    color: #ff5722; /* Use a highlight color for certification links */
+    font-weight: bold;
+    transition: color 0.3s; /* Smooth transition on hover */
+}
+
+#certifications a:hover {
+    color: #e04115; /* Darker color on hover */
+}
+#experience,
+#education {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#experience h2,
+#education h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+#experience p,
+#education p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+#experience p:last-child,
+#education p:last-child {
+    margin-bottom: 0;
+}
